@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5Copy - Text Management and Editing Tool</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>5Copy</h1>
+    <p class="description">A simple tool to manage and work with copied data</p>
+    <div class="top-corner-box">
+      <div class="box-content">
+        <a href="instructions.html">
+          <h3>How to Use</h3>
+        </a>
+      </div>
+    </div>
+    <div class="box-container">
+      <div class="box" id="box1" contenteditable="true" data-placeholder="Paste here for long text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(1)">Copy Box 1</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box2" contenteditable="true" data-placeholder="Paste here for long text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(2)">Copy Box 2</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box3" contenteditable="true" data-placeholder="Paste here for long text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(3)">Copy Box 3</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box4" contenteditable="true" data-placeholder="Paste here for long text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(4)">Copy Box 4</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box5" contenteditable="true" data-placeholder="Paste here for short text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(5)">Copy Box 5</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box6" contenteditable="true" data-placeholder="Paste here for short text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(6)">Copy Box 6</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box7" contenteditable="true" data-placeholder="Paste here for short text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(7)">Copy Box 7</button>
+    </div>
+    
+    <div class="box-container">
+      <div class="box" id="box8" contenteditable="true" data-placeholder="Paste here for short text"></div>
+      <button class="copy-btn" onclick="copyToClipboard(8)">Copy Box 8</button>
+    </div>
+    
+
+    <div class="erase-container">
+      <button class="erase-btn" onclick="eraseAllBoxes()">Erase All The Boxes</button>
+    </div>
+  </div>
+
+    <div class="footer">
+      <p>&copy; 2023 All rights reserved. | Website by Aashu Chaudhary</p>
+      <p>Suggestions? Contact us at <a href="mailto:aashuchaudhary022@gmail.com">aashuchaudhary022@gmail.com</a></p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
